@@ -1,0 +1,184 @@
+---
+title: "Jianru's resume"
+author: Jianru
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+<!-- ![Lijia Yu](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width=80%} -->
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> dengjr@student.ubc.ca
+- <i class="fa fa-github"></i> [github.com/jianructose](https://github.com/jianructose)
+- <i class="fa fa-phone"></i> +1 778-245-2677
+- <i class="fa fa-location-arrow"></i> Vancouver, Canada
+
+
+Tech Skills {#skills}
+--------------------------------------------------------------------------------
+- **Python**: Pandas, Numpy, Sklearn, Tensorflow, nltk, pyspark
+- **R/Rstudio**: tidyverse, pagedown, lubricate
+- **Data Viz**: QlikView, ggplot2, plotly, dash, Tableau, Power BI
+- **SQL**: PL/SQL, SAP ETL
+- Docker, Azure Synapse
+
+
+Education{#edu}
+--------------------------------------------------------------------------------
+
+- *MSc. Data Science*
+- <i class="fa fa-university"></i> University of British Columbia (UBC), Vancouver
+- Nov 2021 (Average: 94%)
+
+- *BSc. Health Sci. & Stats with Honor*
+- <i class="fa fa-university"></i> University of British Columbia (UBC), Vancouver
+- May 2020
+
+
+
+
+Disclaimer {#disclaimer}
+-------------------------------------------------------------------------------
+Made w/ [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Jianru Deng {#title}
+--------------------------------------------------------------------------------
+
+### Tentatively seeking for a Data Engineer/Scientist position
+Experienced Data Engineer ft. Machine Learning
+
+
+<!-- Education {data-icon=graduation-cap data-concise=true} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+
+<!-- Research Experience {data-icon=laptop} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ### Graduate Research Assistant -->
+
+<!-- Beijing Institute of Genomics, Chinese Academy of Sciences -->
+
+<!-- Beijing, China -->
+
+<!-- 2011 - 2014 -->
+
+<!-- - Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome. -->
+<!-- - Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway. -->
+
+<!-- ### Bioinformatican -->
+
+<!-- My Health Gene Technology Co., Ltd. -->
+
+<!-- Beijing, China -->
+
+<!-- 2015 - 2016 -->
+
+<!-- - Investigated how cancer cells spread to other parts of the body at the single cell level. -->
+
+<!-- ### Visiting Scientist -->
+
+<!-- University of Alabama at Birmingham -->
+
+<!-- AL, USA -->
+
+<!-- 2016 - 2018 -->
+
+<!-- - Investigated the role of mitochondria in development of cancer. -->
+<!-- - Investigated the evolution of genome architecture and its role in important evolutionary events. -->
+<!-- - Detected thrombotic thrombocytopenic purpura related mutations in mutiple patients' blood genome. -->
+  
+
+Selected Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Operation Data Engineer
+
+[Pattison Food Group]()
+
+Langley, BC
+
+2022/07 - Current
+
+::: concise
+Successfully and efficiently deployed, maintained and supported QlikView in Azure VM in production env; Optimized Control-M scheduling to orchestrate timely execution and delivery of data pipeline and business reports; Collaborated effectively with DS/ML teams to build/maintain scalable and timely sales reports with achievement of 93% satisfaction level. 
+:::
+
+*Skills: control-m, PL/SQL, QlikView, NPrinting, Azure DataLake, databricks*
+
+### Data Engineer
+
+[Insurance Corporation of British Columnbia(ICBC)]()
+
+North Vancouver, BC
+
+2021/12 - 2022/07
+
+::: concise
+TODO
+:::
+
+*Skills: TODO*
+
+
+Selected Projects {data-icon=cogs}
+--------------------------------------------------------------------------------
+
+### Proj1
+
+TODO
+
+N/A
+
+N/A
+
+### Proj2
+
+TODO
+
+N/A
+
+N/A
+
+
+<!-- Selected Publications and Posters {data-icon=file} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing. -->
+
+<!-- Poster for 2013 International Conference of Genomics -->
+
+<!-- Qingdao, China -->
+
+<!-- 2014 -->
+
+<!-- **Yu L**, Chen B, Zhang Z. -->
+
+<!-- ### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling. -->
+
+<!-- J Cell Sci. 2016 May 15;129(10):2075-84. -->
+
+<!-- N/A -->
+
+<!-- 2016  -->
+
+<!-- Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W.  -->
