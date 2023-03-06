@@ -4,11 +4,13 @@ author: Jianru
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
+    css: style.css
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+# knit: pagedown::chrome_print
 ---
+
 
 
 Aside
@@ -32,19 +34,20 @@ Tech Skills {#skills}
 - **Python**: Pandas, Numpy, Sklearn, Tensorflow, nltk, pyspark
 - **R/Rstudio**: tidyverse, pagedown, lubricate
 - **Data Viz**: QlikView, ggplot2, plotly, dash, Tableau, Power BI
-- **SQL**: PL/SQL, SAP ETL
-- Docker, Azure Synapse
+- **SQL**: PL/SQL, DBeaver, MySQL, SAP ETL
+- **Cloud Computing**: Azure Synapse (ADF, AAS, AAD), AWS (EC2,S3, RDS, IAM)
+- **Others**: Docker, mlflow
 
 
 Education {#skills}
 --------------------------------------------------------------------------------
 
-- MSc. Data Science
-- <i class="fa fa-university"></i> University of British Columbia (UBC), Vancouver
-- Nov 2021 (Average: 94%)
+- *MSc. Data Science*<br>
+<i class="fa fa-university"></i> **University of British Columbia** (UBC), Vancouver<br>
+Nov 2021 (Average: 94%)
 
-- *BSc. Health Sci. & Stats with Honor*
-- <i class="fa fa-university"></i> University of British Columbia (UBC), Vancouver
+- *BSc. Health Sci. & Stats with Honor*<br>
+<i class="fa fa-university"></i> **University of British Columbia** (UBC), Vancouver
 
 
 
@@ -52,8 +55,8 @@ Education {#skills}
 
 Disclaimer {#disclaimer}
 -------------------------------------------------------------------------------
-<!-- Made w/ [**pagedown**](https://github.com/rstudio/pagedown). -->
-<!-- Source code on [github.com/jianructose/cv](https://github.com/jianructose/cv). -->
+Made w/ [pagedown](https://github.com/rstudio/pagedown).<br>
+Source code on [github.com/jianructose/cv](https://github.com/jianructose/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -66,49 +69,9 @@ Jianru Deng {#title}
 --------------------------------------------------------------------------------
 
 ### Tentatively seeking for a Data Engineer/Scientist position
-Data Engineer ft. Machine Learning
+Data Engineer with a passion for Machine Learning
 
 
-<!-- Education {data-icon=graduation-cap data-concise=true} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-
-<!-- Research Experience {data-icon=laptop} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ### Graduate Research Assistant -->
-
-<!-- Beijing Institute of Genomics, Chinese Academy of Sciences -->
-
-<!-- Beijing, China -->
-
-<!-- 2011 - 2014 -->
-
-<!-- - Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome. -->
-<!-- - Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway. -->
-
-<!-- ### Bioinformatican -->
-
-<!-- My Health Gene Technology Co., Ltd. -->
-
-<!-- Beijing, China -->
-
-<!-- 2015 - 2016 -->
-
-<!-- - Investigated how cancer cells spread to other parts of the body at the single cell level. -->
-
-<!-- ### Visiting Scientist -->
-
-<!-- University of Alabama at Birmingham -->
-
-<!-- AL, USA -->
-
-<!-- 2016 - 2018 -->
-
-<!-- - Investigated the role of mitochondria in development of cancer. -->
-<!-- - Investigated the evolution of genome architecture and its role in important evolutionary events. -->
-<!-- - Detected thrombotic thrombocytopenic purpura related mutations in mutiple patients' blood genome. -->
-  
 
 Selected Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -136,7 +99,8 @@ North Vancouver, BC
 2021/12 - 2022/07
 
 ::: concise
-Conducted data quality tests using DBeaver, participated in MLOps project discussions, and proposed the use of MLflow. Modified and optimized Tableau dashboards. Trained models using PySpark in Zeppelin, and collaborated with team to encapsulate MLflow functions for ICBC business needs. Communicated weekly with team to ensure successful project delivery.
+Conducted data quality tests using DBeaver, participated in MLOps project discussions, and proposed the use of MLflow. Modified and optimized Tableau dashboards. 
+Trained models using PySpark in Zeppelin, and collaborated with team to encapsulate MLflow functions for ICBC business needs. Communicated weekly with team to ensure successful project delivery.
 :::
 
 *Skills: Apache Spark, SQL, Python, Zeppelin, DBeaver, Hadoop, SVN, Agile Scrum, Jira, Tableau*
@@ -147,13 +111,41 @@ Conducted data quality tests using DBeaver, participated in MLOps project discus
 
 Remote, BC
 
-2021/04 - 2022/07
+2021/04 - 2021/07
 
 ::: concise
-Developed and maintained the reporting JupyterBook to provide deeper visitor insights across business. Trained on time-series model, prediction model and topic modeling on website visitors from Adobe Analytics cloud services. Deliverables are 3 principle models as time-series forecasting, ML predictor, LDA modeling complied/reported in reproducible Jupyter Book.
+Developed and maintained the reporting JupyterBook to provide deeper visitor insights across business. 
+Trained on time-series model, prediction model and topic modeling on website visitors from Adobe Analytics cloud services. Deliverables are 3 principle models as time-series forecasting, ML predictor, LDA modeling complied/reported in reproducible Jupyter Book.
 :::
 
 *Skills: Prophet, Python, Adobe Analytics, Sklearn, LDA, Git, ANN, JupyterBook*
+
+### Research Assistant, Intern
+
+[School of Nursing, University of British Columbia]()
+
+Vancouver, BC
+
+2021/05 - 2022/01
+
+::: concise
+Monitored and recorded patient data for *Roche* COVID rapid testing kits pilot project. Conducted statistical analysis and supported team in R analysis.
+:::
+
+*Skills: R, statistical analysis, on-site clinic practice*
+
+
+### Data Curator/Analyst
+
+[Computer Science Department, University of British Columbia]()
+
+Vancouver, BC
+
+2019/09 - 2020/08
+
+*Skills: SQL, Access, Excel, Microsoft Office, Qualtrics*
+
+
 
 
 Selected Projects {data-icon=cogs}
@@ -161,7 +153,9 @@ Selected Projects {data-icon=cogs}
 
 ### R Visualization of after-hour on-call duties in Data Engineering team
 
-Extracted data via ServiceNow for the past 22 months and transformed its business meaning into well-understood manner to stakeholders. Loaded into data visualization tool by ggplot2 to highlight the frequency and intensity of the pager duties. Made it interactive in presentation for good reporting purpose.<br>
+
+Extracted data via ServiceNow for the past 22 months and transformed its business meaning into well-understood manner to stakeholders. 
+Loaded into data visualization tool by ggplot2 to highlight the frequency and intensity of the pager duties. Made it interactive in presentation for good reporting purpose.<br><br>
 *Skills: ggplot2, Rmarkdown, plotly, ETL, ServiceNow, Business Reporting*
 
 N/A
@@ -170,33 +164,11 @@ N/A
 
 ### Survey Text Classification/Prediction by LSTMs
 
-Classified survey text data of happy notes into 7 categories by RNN and LSTMs. Data processing of tokenization and numericalization, word embeddings, batching. Trained larger data on GRUs. Defined and implemented RNN/LSTM network architecture.<br>
+Classified survey text data of happy notes into 7 categories by RNN and LSTMs. Data processing of tokenization and numericalization, word embeddings, batching. Trained larger data on GRUs. Defined and implemented RNN/LSTM network architecture.<br><br>
 *Skills: PyTorch, Google Colab, Python (torchtext, sklearn)*
 
 N/A
 
-N/A
+2021/07
 
 
-<!-- Selected Publications and Posters {data-icon=file} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing. -->
-
-<!-- Poster for 2013 International Conference of Genomics -->
-
-<!-- Qingdao, China -->
-
-<!-- 2014 -->
-
-<!-- **Yu L**, Chen B, Zhang Z. -->
-
-<!-- ### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling. -->
-
-<!-- J Cell Sci. 2016 May 15;129(10):2075-84. -->
-
-<!-- N/A -->
-
-<!-- 2016  -->
-
-<!-- Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W.  -->
