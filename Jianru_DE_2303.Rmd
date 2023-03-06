@@ -5,10 +5,11 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
+
 
 Aside
 ================================================================================
@@ -35,23 +36,24 @@ Tech Skills {#skills}
 - Docker, Azure Synapse
 
 
-Education{#edu}
+Education {#skills}
 --------------------------------------------------------------------------------
 
-- *MSc. Data Science*
+- MSc. Data Science
 - <i class="fa fa-university"></i> University of British Columbia (UBC), Vancouver
 - Nov 2021 (Average: 94%)
 
 - *BSc. Health Sci. & Stats with Honor*
 - <i class="fa fa-university"></i> University of British Columbia (UBC), Vancouver
-- May 2020
+
 
 
 
 
 Disclaimer {#disclaimer}
 -------------------------------------------------------------------------------
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown).
+<!-- Made w/ [**pagedown**](https://github.com/rstudio/pagedown). -->
+<!-- Source code on [github.com/jianructose/cv](https://github.com/jianructose/cv). -->
 
 Last updated on `r Sys.Date()`.
 
@@ -64,7 +66,7 @@ Jianru Deng {#title}
 --------------------------------------------------------------------------------
 
 ### Tentatively seeking for a Data Engineer/Scientist position
-Experienced Data Engineer ft. Machine Learning
+Data Engineer ft. Machine Learning
 
 
 <!-- Education {data-icon=graduation-cap data-concise=true} -->
@@ -111,49 +113,65 @@ Experienced Data Engineer ft. Machine Learning
 Selected Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-### Operation Data Engineer
+### Data Engineer
 
-[Pattison Food Group]()
+[Pattison Food Group](https://pattisonfoodgroup.com/)
 
 Langley, BC
 
 2022/07 - Current
 
 ::: concise
-Successfully and efficiently deployed, maintained and supported QlikView in Azure VM in production env; Optimized Control-M scheduling to orchestrate timely execution and delivery of data pipeline and business reports; Collaborated effectively with DS/ML teams to build/maintain scalable and timely sales reports with achievement of 93% satisfaction level. 
+Deployed, maintained, and optimized QlikView in Azure VM for production. Monitored and improved over 1k ETL jobs in SAP. Orchestrated timely execution and delivery of data pipeline and business reports with Control-M scheduling. Collaborated with DS/ML teams to build and maintain scalable sales reports, achieving good revenue increase and 93% satisfaction.
 :::
 
-*Skills: control-m, PL/SQL, QlikView, NPrinting, Azure DataLake, databricks*
+*Skills: Control-M, PL/SQL, QlikView, NPrinting, Azure DataLake, databricks*
 
-### Data Engineer
+### Data Engineer, Intern
 
-[Insurance Corporation of British Columnbia(ICBC)]()
+[Insurance Corporation of British Columnbia (ICBC)](https://www.icbc.com/Pages/default.aspx)
 
 North Vancouver, BC
 
 2021/12 - 2022/07
 
 ::: concise
-TODO
+Conducted data quality tests using DBeaver, participated in MLOps project discussions, and proposed the use of MLflow. Modified and optimized Tableau dashboards. Trained models using PySpark in Zeppelin, and collaborated with team to encapsulate MLflow functions for ICBC business needs. Communicated weekly with team to ensure successful project delivery.
 :::
 
-*Skills: TODO*
+*Skills: Apache Spark, SQL, Python, Zeppelin, DBeaver, Hadoop, SVN, Agile Scrum, Jira, Tableau*
+
+### Machine Learning Consultant, Intern
+
+[Web Analytics, Government of Canada](https://www.canada.ca/en.html)
+
+Remote, BC
+
+2021/04 - 2022/07
+
+::: concise
+Developed and maintained the reporting JupyterBook to provide deeper visitor insights across business. Trained on time-series model, prediction model and topic modeling on website visitors from Adobe Analytics cloud services. Deliverables are 3 principle models as time-series forecasting, ML predictor, LDA modeling complied/reported in reproducible Jupyter Book.
+:::
+
+*Skills: Prophet, Python, Adobe Analytics, Sklearn, LDA, Git, ANN, JupyterBook*
 
 
 Selected Projects {data-icon=cogs}
 --------------------------------------------------------------------------------
 
-### Proj1
+### R Visualization of after-hour on-call duties in Data Engineering team
 
-TODO
+Extracted data via ServiceNow for the past 22 months and transformed its business meaning into well-understood manner to stakeholders. Loaded into data visualization tool by ggplot2 to highlight the frequency and intensity of the pager duties. Made it interactive in presentation for good reporting purpose.<br>
+*Skills: ggplot2, Rmarkdown, plotly, ETL, ServiceNow, Business Reporting*
 
 N/A
 
-N/A
+2023/02
 
-### Proj2
+### Survey Text Classification/Prediction by LSTMs
 
-TODO
+Classified survey text data of happy notes into 7 categories by RNN and LSTMs. Data processing of tokenization and numericalization, word embeddings, batching. Trained larger data on GRUs. Defined and implemented RNN/LSTM network architecture.<br>
+*Skills: PyTorch, Google Colab, Python (torchtext, sklearn)*
 
 N/A
 
