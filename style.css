@@ -90,8 +90,8 @@
     #title{
     position: relative;
     left: 0.55in;
-    margin: auto 0.55in 0.3in auto;
-    line-height: 1.2;
+    margin: auto 0.3in 0.1in auto;
+    line-height: 1;
     }
     #title h1{
     font-weight: 300;

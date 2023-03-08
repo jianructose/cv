@@ -1,5 +1,5 @@
 ---
-title: "Jianru's resume"
+title: "Jianru_DE_CRA_CS2_2303"
 author: Jianru
 date: "`r Sys.Date()`"
 output:
@@ -23,10 +23,10 @@ Aside
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> dengjr@student.ubc.ca
+- <i class="fa fa-envelope"></i> dengjr1509@gmail.com
 - <i class="fa fa-github"></i> [github.com/jianructose](https://github.com/jianructose)
 - <i class="fa fa-phone"></i> +1 778-245-2677
-- <i class="fa fa-location-arrow"></i> Vancouver, Canada
+- <i class="fa fa-location-arrow"></i> Surrey, BC Canada
 
 
 Tech Skills {#skills}
@@ -69,9 +69,7 @@ Jianru Deng {#title}
 --------------------------------------------------------------------------------
 
 ### Tentatively seeking for a Data Engineer/Scientist position
-Data Engineer with a passion for Machine Learning
-
-
+Data engineer with a proven track record of developing, delivering, and maintaining IT infrastructure, products, and solutions. Adept at providing technical advice and mentoring colleagues to enhance team performance. 
 
 Selected Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -122,7 +120,7 @@ Trained on time-series model, prediction model and topic modeling on website vis
 
 ### Research Assistant, Intern
 
-[School of Nursing, University of British Columbia]()
+[School of Nursing, University of British Columbia](https://nursing.ubc.ca/)
 
 Vancouver, BC
 
@@ -137,7 +135,7 @@ Monitored and recorded patient data for *Roche* COVID rapid testing kits pilot p
 
 ### Data Curator/Analyst
 
-[Computer Science Department, University of British Columbia]()
+[Computer Science Department, University of British Columbia](https://www.cs.ubc.ca/)
 
 Vancouver, BC
 
